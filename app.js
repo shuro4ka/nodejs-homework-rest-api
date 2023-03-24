@@ -5,6 +5,8 @@ require("dotenv").config();
 const contactsRouter = require("./routes/api/contacts");
 const authRouter = require("./routes/api/auth");
 
+
+
 //mongodb+srv://Olesia:Olesia:zaysella09061982@cluster0.oqvrra4.mongodb.net/?retryWrites=true&w=majority
 
 const app = express();
@@ -30,3 +32,6 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
+
+
+
